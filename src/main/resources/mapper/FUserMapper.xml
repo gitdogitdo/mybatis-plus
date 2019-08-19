@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.plus.mapper.FUserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.plus.entity.FUser">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="username" property="username" />
+        <result column="password" property="password" />
+        <result column="telephone" property="telephone" />
+        <result column="e_mail" property="eMail" />
+        <result column="salt" property="salt" />
+        <result column="status" property="status" />
+        <result column="last_login_ip" property="lastLoginIp" />
+        <result column="create_time" property="createTime" />
+        <result column="update_time" property="updateTime" />
+        <result column="point_hash" property="pointHash" />
+        <result column="space" property="space" />
+        <result column="upload_file_num" property="uploadFileNum" />
+        <result column="download_file_num" property="downloadFileNum" />
+        <result column="use_status" property="useStatus" />
+        <result column="birthday" property="birthday" />
+        <result column="address" property="address" />
+        <result column="avatar" property="avatar" />
+    </resultMap>
+
+</mapper>
